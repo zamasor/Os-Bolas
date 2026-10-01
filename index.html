@@ -1,0 +1,135 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Teste Gerador</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #05070d;
+            color: white;
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        svg {
+            width: 600px;
+            max-width: 90vw;
+            height: auto;
+
+            border: 1px solid #333;
+            background: #090d18;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>TESTE DO GERADOR</h1>
+
+        <svg
+            width="600"
+            height="600"
+            viewBox="0 0 800 800"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+
+            <circle
+                cx="400"
+                cy="400"
+                r="350"
+                fill="none"
+                stroke="white"
+                stroke-width="5"
+            />
+
+            <circle
+                cx="400"
+                cy="400"
+                r="250"
+                fill="none"
+                stroke="white"
+                stroke-width="3"
+            />
+
+            <circle
+                cx="400"
+                cy="400"
+                r="100"
+                fill="none"
+                stroke="white"
+                stroke-width="3"
+            />
+
+            <line
+                x1="50"
+                y1="400"
+                x2="750"
+                y2="400"
+                stroke="white"
+                stroke-width="2"
+            />
+
+            <line
+                x1="400"
+                y1="50"
+                x2="400"
+                y2="750"
+                stroke="white"
+                stroke-width="2"
+            />
+
+            <polygon
+                points="
+                    400,250
+                    435,365
+                    555,365
+                    460,435
+                    495,550
+                    400,480
+                    305,550
+                    340,435
+                    245,365
+                    365,365
+                "
+                fill="none"
+                stroke="white"
+                stroke-width="4"
+            />
+
+            <text
+                x="400"
+                y="650"
+                text-anchor="middle"
+                fill="white"
+                font-size="32"
+            >
+                SVG FUNCIONANDO
+            </text>
+
+        </svg>
+
+    </div>
+
+</body>
+</html>
+```
